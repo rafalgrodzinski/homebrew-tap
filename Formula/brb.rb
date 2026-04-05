@@ -4,8 +4,8 @@ class Brb < Formula
   license ""
 
   version "1.0.0-dev-92"
-  url "https://github.com/rafalgrodzinski/bits-runner-builder/archive/refs/heads/129-automated-cmake-for-build-installation-on-macos.zip"
-  sha256 "d8147ac06ee883ee95af9008aa8824d9ad6bebf9b6c3b99b8686077784b95344"
+  url "https://github.com/rafalgrodzinski/bits-runner-builder/archive/refs/tags/dev/1.0.0-dev-92.tar.gz"
+  sha256 "ba657f1836a48a4e77e45d62ac8ddf7b55b395187df6a26c8958e52aaf1effb7"
   
   head "https://github.com/rafalgrodzinski/bits-runner-builder.git", branch: "main"
   
