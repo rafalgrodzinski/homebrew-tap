@@ -1,4 +1,4 @@
-# Rafalgrodzinski Tap
+# rafalgrodzinski/homebrew-tap
 
 ## How do I install these formulae?
 

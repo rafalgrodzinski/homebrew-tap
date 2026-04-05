@@ -1,0 +1,9 @@
+# Merge artifacts
+*.swp
+*.orig
+*_LOCAL_*
+*_REMOTE_*
+*_BASE_*
+
+# macOS
+.DS_Store
