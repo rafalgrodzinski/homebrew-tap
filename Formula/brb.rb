@@ -3,9 +3,11 @@ class Brb < Formula
   homepage "https://github.com/rafalgrodzinski/bits-runner-builder"
   license ""
 
-  version "1.0.0"
+  version "1.0.0-dev-92"
   url "https://github.com/rafalgrodzinski/bits-runner-builder/archive/refs/heads/129-automated-cmake-for-build-installation-on-macos.zip"
   sha256 "4ccb1d0f82f114a3975a319af4ead5aac76f5d2d37f8a1e8c51c97f03f460027"
+  
+  head "https://github.com/rafalgrodzinski/bits-runner-builder.git", branch: "main"
   
   depends_on "cmake" => :build
   depends_on "llvm@20"
