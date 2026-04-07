@@ -18,7 +18,8 @@ class Brb < Formula
   depends_on macos: :sonoma
 
   def install
-    system "VERSION=#{VERSION}", "cmake", "-S", ".", "-B", "build", *std_cmake_args
+    ENV["VERSION"] = VERSION
+    system "cmake", "-S", ".", "-B", "build", *std_cmake_args
     system "cmake", "--build", "build"
     system "cmake", "--install", "build"
   end
