@@ -1,7 +1,7 @@
 class Brb < Formula
   BUILD_KIND = "dev".freeze
-  VERSION = "1.0.0-dev-101".freeze
-  SHA_256 = "51ef17d14c7511af2e2537ed4a9d5a8cea9e1f814e7b9a3a469e336ccd6b1630".freeze
+  VERSION = "1.0.0-dev-102".freeze
+  SHA_256 = "8986bac0b081f51e73eae2b1b11630de53a53261c0eb402dcd5a0bd2d6764069".freeze
 
   desc "Compiler for the Bits Runner Code language"
   homepage "https://github.com/rafalgrodzinski/bits-runner-builder"
