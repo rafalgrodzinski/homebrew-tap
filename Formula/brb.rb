@@ -23,4 +23,8 @@ class Brb < Formula
     system "cmake", "--build", "build"
     system "cmake", "--install", "build"
   end
+
+  test do
+    assert_match version.to_s, shell_output("#{bin}/brb --version")
+  end
 end
